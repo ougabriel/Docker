@@ -6,10 +6,11 @@ On Application Server 2 create aDOCKER container named nginx_2 using image nginx
 To deploy an Nginx container named `nginx_2` using the `nginx` image with the `alpine` tag on Application Server 2, follow these steps:
 
 1. **Connect to Application Server 2:**
+#
 
    Log in to Application Server 2 using SSH or your preferred remote access method.
 
-2. **Pull and Run Nginx Container:**
+3. **Pull and Run Nginx Container:**
 
    Run the following command to pull and run the Nginx container using the specified image and tag:
 
@@ -23,7 +24,7 @@ To deploy an Nginx container named `nginx_2` using the `nginx` image with the `a
    - `-p 80:80`: Map port 80 from the host to port 80 in the container.
    - `nginx:alpine`: Use the `nginx` image with the `alpine` tag.
 
-3. **Check Container Status:**
+4. **Check Container Status:**
 
    You can check the status of the container using the following command:
 
